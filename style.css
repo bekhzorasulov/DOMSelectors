@@ -1,3 +1,6 @@
+/* AKHROR WEB YOUTUBE DARSLARI */
+
+
 /* .error {
     padding: 10px;
     color: crimson;
@@ -20,15 +23,20 @@
 body {
     font-family: "Varela", sans-serif;
     height: 100vh;
-    background-color: aqua;
+    background-color: #00ffff;
 }
 
-.wrapper {
+
+/* MODEL AKHROR WEB YOUTUBE  */
+
+
+/* .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     height: inherit;
 }
+
 
 .hidden {
     display: none;
@@ -65,12 +73,16 @@ body {
     padding: 15px;
     border-radius: 8px;
     z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .modal-header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .close-btn {
@@ -90,4 +102,81 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
+} */
+
+
+/* UYGA VAZIFA */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.btn {
+    border: 0;
+    background: transparent;
+    font-family: inherit;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.show-btn {
+    background-color: #474b4f;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background 0.5s;
+}
+
+.show-btn:hover {
+    background-color: #3a3d40;
+}
+
+.modal {
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-top: 150px;
+    border-radius: 8px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    margin-bottom: 20px;
+}
+
+.close-btn {
+    color: #222;
+    font-size: 20px;
+}
+
+.clear-btn {
+    background-color: #474b4f;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background 0.5s;
+    margin-top: 20px;
+    &:hover {
+        background-color: #ffffff;
+        color: #3a3d40;
+        border: 1px solid #3a3d40;
+    }
+}
+
+.hidden {
+    display: none;
 }
