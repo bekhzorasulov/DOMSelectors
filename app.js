@@ -32,7 +32,7 @@ clearBtn.addEventListener("click", () => {
 });
 
 const text = document.querySelector(".li-parent");
-const b = 6;
+const b = 12;
 const colors = [
     "0",
     "1",
